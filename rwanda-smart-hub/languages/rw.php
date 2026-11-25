@@ -1,0 +1,42 @@
+<?php
+
+return [
+    "site_name" => "Rwanda Smart Hub",
+    "home" => "Ahabanza",
+    "categories" => "Ibyiciro",
+    "information" => "Amakuru",
+    "about" => "Abo Turi Bo",
+    "search" => "Shakisha",
+    "search_button" => "Shakisha",
+    "all_categories" => "Ibyiciro Byose",
+    "all_districts" => "Uturere Twose",
+    "clear_filters" => "Kuraho Akayunguruzo",
+    "featured_information" => "Amakuru Y'ingenzi",
+    "search_results" => "Ibisubizo by'Ubushakashatsi",
+    "no_information" => "Nta makuru yabonetse",
+    "verified" => "Byagenzuwe",
+    "unverified" => "Ntabwo Byagenzuwe",
+    "needs_review" => "Bisaba Gusubirwamo",
+    "archived" => "Byabitswe",
+
+    "our_purpose" => "Intego Yacu",
+    "purpose_text" => "Rwanda Smart Hub iri kubakwa nka prototype igamije gutunganya no gufasha abantu gushakisha amakuru y'ingirakamaro yerekeye serivisi, ahantu, ubucuruzi, uburezi, ubuzima, ubwikorezi n'ibindi byiciro.",
+    "how_it_works" => "Uko Ikora",
+    "how_it_works_text" => "Amakuru abikwa muri database iteguye neza kandi abakoresha bashobora kuyashakamo. Abayobozi bashinzwe sisitemu bashobora gucunga amakuru binyuze muri sisitemu y'ubuyobozi irinzwe.",
+    "important_notice" => "Icyitonderwa Cy'ingenzi",
+    "notice_text" => "Iyi verisiyo ni prototype. Amakuru agaragara ubu ni amakuru yo kwifashisha mu igerageza kandi ntakwiriye gufatwa nk'amakuru yemewe ya Leta.",
+    "prototype_notice" => "Prototype — amakuru yo kwifashisha mu igerageza gusa",
+
+    "all_provinces" => "Intara Zose",
+    "hero_title" => "Murakaza neza kuri Rwanda Smart Hub",
+"hero_text" => "Shakisha amakuru y'ingirakamaro yerekeye serivisi, ahantu, ubucuruzi, uburezi, ubuzima n'ibindi mu Rwanda.",
+"explore_information" => "Shakisha Amakuru",
+"category" => "Icyiciro",
+"location" => "Aho giherereye",
+"phone" => "Telefone",
+"address" => "Aderesi",
+"description" => "Ibisobanuro",
+"status" => "Imiterere",
+"back_to_information" => "Subira ku makuru",
+
+];

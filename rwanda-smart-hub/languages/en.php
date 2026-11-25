@@ -1,0 +1,42 @@
+<?php
+
+return [
+    "site_name" => "Rwanda Smart Hub",
+    "home" => "Home",
+    "categories" => "Categories",
+    "information" => "Information",
+    "about" => "About",
+    "search" => "Search",
+    "search_button" => "Search",
+    "all_categories" => "All Categories",
+    "all_districts" => "All Districts",
+    "clear_filters" => "Clear Filters",
+    "featured_information" => "Featured Information",
+    "search_results" => "Search Results",
+    "no_information" => "No information found",
+    "verified" => "Verified",
+    "unverified" => "Unverified",
+    "needs_review" => "Needs Review",
+    "archived" => "Archived",
+
+    "our_purpose" => "Our Purpose",
+    "purpose_text" => "Rwanda Smart Hub is being developed as a prototype platform for organizing and searching useful information about services, places, businesses, education, health, transport and other categories.",
+    "how_it_works" => "How It Works",
+    "how_it_works_text" => "Information is stored in a structured database and can be searched by users. Administrators can manage information through the protected administration system.",
+    "important_notice" => "Important Notice",
+    "notice_text" => "This current version is a prototype. The information currently displayed is demonstration data and should not be considered official government information.",
+    "prototype_notice" => "Prototype — demonstration information only",
+
+    "all_provinces" => "All Provinces",
+    
+    "hero_title" => "Welcome to Rwanda Smart Hub",
+"hero_text" => "Find useful information about services, places, businesses, education, health and more across Rwanda.",
+"explore_information" => "Explore Information",
+"category" => "Category",
+"location" => "Location",
+"phone" => "Phone",
+"address" => "Address",
+"description" => "Description",
+"status" => "Status",
+"back_to_information" => "Back to Information",
+];

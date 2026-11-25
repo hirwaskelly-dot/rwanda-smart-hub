@@ -1,0 +1,799 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #1f2937;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    background: #0b5ed7;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+/* Rwanda Smart Hub hero section */
+.hero {
+    text-align: center;
+    padding: 75px 24px;
+    margin: 0 0 35px;
+    border-radius: 0 0 24px 24px;
+    background: linear-gradient(135deg, #eff6ff, #ffffff 55%, #ecfdf5);
+}
+
+.hero h1 {
+    max-width: 900px;
+    margin: 0 auto 20px;
+    color: #12346b;
+    font-size: clamp(32px, 5vw, 52px);
+    font-weight: 800;
+    line-height: 1.15;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 0 auto 28px;
+    color: #52647a;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 10px;
+    background: #0757c9;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 5px 14px rgba(7, 87, 201, 0.2);
+    transition: transform 0.2s, background 0.2s;
+}
+
+.hero-button:hover {
+    background: #0646a4;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding: 48px 18px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}
+
+
+.search-box {
+    display: flex;
+    max-width: 700px;
+    margin: 25px auto;
+    margin-left: -100%;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px 0 0 8px;
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 15px 25px;
+    border: none;
+    background: #0b5ed7;
+    color: white;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background: #084298;
+}
+
+.section-title {
+    margin-top: 30px;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.category-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.category-card h3 {
+    margin: 0;
+}
+
+
+/* Rwanda Smart Hub information cards */
+.information-card {
+    background: #ffffff;
+    padding: 26px;
+    margin-bottom: 22px;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    box-shadow: 0 5px 18px rgba(15, 23, 42, 0.06);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.information-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.1);
+}
+
+.information-card h2 {
+    margin: 0 0 16px;
+    color: #12346b;
+    font-size: 24px;
+}
+
+.information-card h3 {
+    margin-top: 0;
+    color: #12346b;
+    font-size: 20px;
+}
+
+.information-card p {
+    margin: 10px 0;
+    color: #475569;
+    line-height: 1.7;
+}
+
+.information-card strong {
+    color: #1e293b;
+}
+
+.details-button {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 11px 20px;
+    border-radius: 8px;
+    background: #0757c9;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.details-button:hover {
+    background: #0646a4;
+}
+
+@media (max-width: 600px) {
+    .information-card {
+        padding: 20px;
+    }
+
+    .information-card h2 {
+        font-size: 21px;
+    }
+}
+
+
+.status {
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 50px;
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media (max-width: 700px) {
+
+    .categories {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .search-box {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr auto;
+    gap: 10px;
+    max-width: 900px;
+    margin: 25px auto;
+}
+
+    .search-box input {
+    width: 100%;
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+    .search-box button {
+        border-radius: 8px;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+}
+.category-card {
+    text-decoration: none;
+    color: #1f2937;
+    display: block;
+    transition: 0.2s;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.category-card p {
+    color: #64748b;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 700px) {
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+}
+@media (max-width: 600px) {
+
+    .container {
+        width: 94%;
+    }
+
+    .hero {
+        padding: 35px 10px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .categories {
+        grid-template-columns: 1fr;
+    }
+
+    .information-card {
+        padding: 18px;
+    }
+
+    .information-card h2 {
+        font-size: 21px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .search-box input,
+    .search-box button {
+        font-size: 16px;
+    }
+
+}
+.information-card {
+    border-left: 5px solid #0b5ed7;
+}
+
+.information-card h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.information-card p {
+    line-height: 1.6;
+}
+
+.status {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    background: #eef2ff;
+    font-size: 14px;
+}
+.status-verified {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.status-unverified {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.status-review {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.status-archived {
+    background: #e5e7eb;
+    color: #374151;
+}
+.search-box select {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background: white;
+}
+
+.search-box button {
+    border-radius: 8px;
+    white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+
+    .search-box {
+        grid-template-columns: 1fr;
+    }
+
+    .search-box input,
+    .search-box select,
+    .search-box button {
+        width: 100%;
+    }
+
+}
+.clear-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    background: #e5e7eb;
+    color: #1f2937;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.clear-button:hover {
+    background: #d1d5db;
+}
+
+@media (max-width: 700px) {
+
+    .clear-button {
+        width: 100%;
+    }
+
+}
+.result-count {
+    color: #64748b;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.no-results {
+    text-align: center;
+    padding: 35px 20px;
+}
+
+.no-results h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.no-results .clear-button {
+    display: inline-flex;
+    margin-top: 10px;
+}
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.stat-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.stat-card h3 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.stat-card p {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .stats {
+        grid-template-columns: 1fr;
+    }
+}
+.admin-dashboard {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.admin-dashboard h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.admin-dashboard .welcome {
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.admin-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.admin-menu a {
+    display: block;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s;
+}
+
+.admin-menu a:hover {
+    transform: translateY(-3px);
+}
+
+@media (max-width: 600px) {
+    .admin-menu {
+        grid-template-columns: 1fr;
+    }
+
+    .admin-dashboard h1 {
+        font-size: 26px;
+    }
+}
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    background: #f1f5f9;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: 0 auto 25px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    background: #2563eb;
+    color: white;
+    font-weight: bold;
+}
+
+.hero-button:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding: 40px 15px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}
+
+.search-box {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr auto auto;
+    gap: 12px;
+    padding: 20px;
+    margin: 25px 0 35px;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.search-box input,
+.search-box select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.search-box input:focus,
+.search-box select:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.search-box button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search-box .clear-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+    .search-box {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .search-box {
+        grid-template-columns: 1fr;
+    }
+
+    .search-box button,
+    .search-box .clear-button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+.information-card {
+    background: white;
+    padding: 24px;
+    margin-bottom: 20px;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e5e7eb;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.information-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.information-card h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.information-card p {
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+.information-card strong {
+    font-weight: bold;
+}
+a.information-card,
+a.information-card:visited,
+a.information-card:hover,
+a.information-card:active {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+.details-page {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.details-card {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.details-card h1 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.details-card p {
+    margin: 15px 0;
+    line-height: 1.7;
+}
+
+.details-card strong {
+    font-weight: bold;
+}
+@media (max-width: 600px) {
+
+    .details-page {
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .details-card {
+        padding: 20px;
+    }
+
+    .details-card h1 {
+        font-size: 26px;
+    }
+
+    .details-card p {
+        font-size: 15px;
+    }
+
+
+}
+
+.site-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.site-brand img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+@media (max-width: 600px) {
+    .site-brand {
+        font-size: 18px;
+    }
+
+    .site-brand img {
+        width: 42px;
+        height: 42px;
+    }
+}
+
+/* Rwanda Smart Hub navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 15px 24px;
+    background: #0757c9;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.site-brand {
+    flex-shrink: 0;
+}
+
+nav a:hover {
+    opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+    nav {
+        justify-content: center;
+        padding: 12px;
+        gap: 12px;
+    }
+
+    .site-brand {
+        width: 100%;
+        justify-content: center;
+    }
+}
